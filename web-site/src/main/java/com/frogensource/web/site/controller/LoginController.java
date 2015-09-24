@@ -28,4 +28,9 @@ public class LoginController {
 		return "services";
 	}
 
+	@RequestMapping(value = "/services/details", method = RequestMethod.GET)
+	public String servicesDetails(ModelMap map) {
+		return "servicesDetails";
+	}
+
 }
