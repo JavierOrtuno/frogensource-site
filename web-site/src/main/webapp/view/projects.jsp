@@ -81,6 +81,9 @@
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
 					</p>
+					<p>
+						<a href="${pageContext.request.contextPath}/projects/details">Ver Proyectos</a>
+					</p>
 				</div> <!-- .cd-content -->
 			</section> <!-- .cd-section -->
 		</main> <!-- .cd-main -->
