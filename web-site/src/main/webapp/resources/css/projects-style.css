@@ -157,6 +157,9 @@ header h1 {
 .cd-timeline-img.cd-picture {
   background: #75ce66;
 }
+.cd-timeline-img.cd-phone {
+  background: #3b93e4;
+}
 .cd-timeline-img.cd-movie {
   background: #c03b44;
 }
