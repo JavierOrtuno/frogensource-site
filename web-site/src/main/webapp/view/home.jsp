@@ -58,8 +58,8 @@
 			<section class="cd-section index visible">
 				<header>
 					<div class="cd-title">
-						<h2>Animated Page Transition #2</h2>
-						<span>Some text here</span>
+						<h2>frogensource.com</h2>
+						<span>Soluciones hechas a la medida</span>
 					</div>
 
 					<a href="#index-content" class="cd-scroll">Scroll Down</a>
