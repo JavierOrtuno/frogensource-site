@@ -31,6 +31,7 @@
 						Sitio web que aloja información respecto a los servicios que ofrece la empresa
 						frogensource.
 					</p>
+					<a href="${pageContext.request.contextPath}/" class="cd-read-more">Conócenos</a>
 					<span class="cd-date">Septiembre 2015 - A la fecha</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
