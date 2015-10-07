@@ -18,82 +18,105 @@
 		<header>
 			<h1>Responsive Vertical Timeline</h1>
 		</header>
-	
+
 		<section id="cd-timeline" class="cd-container">
 			<div class="cd-timeline-block">
-				<div class="cd-timeline-img cd-picture">
-					<img src="${pageContext.request.contextPath}/resources/img/cd-icon-picture.svg" alt="Picture">
-				</div> <!-- cd-timeline-img -->
-	
+				<div class="cd-timeline-img cd-location">
+					<!-- <img src="${pageContext.request.contextPath}/resources/img/cd-icon-huawei.svg" alt="Location"> -->
+				</div>
+
 				<div class="cd-timeline-content">
-					<h2>Title of section 1</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-					<a href="#0" class="cd-read-more">Read more</a>
-					<span class="cd-date">Jan 14</span>
+					<h2>FrogenSource</h2>
+					<p>
+						Sitio web que aloja información respecto a los servicios que ofrece la empresa
+						frogensource.
+					</p>
+					<span class="cd-date">Septiembre 2015 - A la fecha</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
-	
-			<div class="cd-timeline-block">
-				<div class="cd-timeline-img cd-movie">
-					<img src="${pageContext.request.contextPath}/resources/img/cd-icon-movie.svg" alt="Movie">
-				</div> <!-- cd-timeline-img -->
-	
-				<div class="cd-timeline-content">
-					<h2>Title of section 2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
-					<a href="#0" class="cd-read-more">Read more</a>
-					<span class="cd-date">Jan 18</span>
-				</div> <!-- cd-timeline-content -->
-			</div> <!-- cd-timeline-block -->
-	
+
 			<div class="cd-timeline-block">
 				<div class="cd-timeline-img cd-phone">
-					<img src="${pageContext.request.contextPath}/resources/img/cd-icon-telcel.svg" alt="Picture">
+					<!-- <img src="${pageContext.request.contextPath}/resources/img/cd-icon-telcel.svg" alt="Picture"> -->
 				</div> <!-- cd-timeline-img -->
-	
+
 				<div class="cd-timeline-content">
-					<h2>Telcel</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+					<h2>Mi Telcel</h2>
+					<p>
+						Se realiza un re-diseño de la aplicación Mi Telcel, donde se modifica el look and feel de la página,
+						así como el control y administración de sus componentes, garantizando un mejor 
+						funcionamiento del sitio, sin perder de vista su núcleo de negocio y conservando sus características.
+					</p>
 					<a href="#0" class="cd-read-more">Read more</a>
-					<span class="cd-date">Jan 24</span>
+					<span class="cd-date">Julio 2015 - A la fecha</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
-	
-			<div class="cd-timeline-block">
-				<div class="cd-timeline-img cd-location">
-					<img src="${pageContext.request.contextPath}/resources/img/cd-icon-huawei.svg" alt="Location">
-				</div> <!-- cd-timeline-img -->
-	
-				<div class="cd-timeline-content">
-					<h2>Title of section 4</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-					<a href="#0" class="cd-read-more">Read more</a>
-					<span class="cd-date">Feb 14</span>
-				</div> <!-- cd-timeline-content -->
-			</div> <!-- cd-timeline-block -->
-	
+			
 			<div class="cd-timeline-block">
 				<div class="cd-timeline-img cd-movie">
-					<img src="${pageContext.request.contextPath}/resources/img/cd-icon-hsbc.svg" alt="Location">
+					<!-- <img src="${pageContext.request.contextPath}/resources/img/cd-icon-hsbc.svg" alt="Location"> -->
 				</div> <!-- cd-timeline-img -->
-	
+
 				<div class="cd-timeline-content">
-					<h2>HSBC</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+					<h2>SIB</h2>
+					<p>
+						El proyecto consiste en realizar una migración del Sistema de Inversión Bursatil (SIB),
+						donde se lleva de una plataforma Progress 4gl a una plataforma Java, conservando su núcleo
+						de negocio y rediseñando su estructura y performance, para garantizar un mejor desempeño
+						del sistema así como mejorar la experiencia del usuario.
+					</p>
 					<a href="#0" class="cd-read-more">Read more</a>
-					<span class="cd-date">Feb 18</span>
+					<span class="cd-date">Enero 2014 - Junio 2015</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
-	
+
+			<div class="cd-timeline-block">
+				<div class="cd-timeline-img cd-location">
+					<!-- <img src="${pageContext.request.contextPath}/resources/img/cd-icon-huawei.svg" alt="Location"> -->
+				</div>
+
+				<div class="cd-timeline-content">
+					<h2>Navidad con Huawei</h2>
+					<p>
+						Promocional navideño de la compañia Huawei, para concursar por premios especiales bajo
+						una dinámica de videojuego navideño. Esta aplicación fué montada sobre Facebook para llevar
+						a cabo la dinámica y participación de sus usuarios.
+					</p>
+					<a href="#0" class="cd-read-more">Read more</a>
+					<span class="cd-date">Noviembre 2013 - Diciembre 2013</span>
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
 			<div class="cd-timeline-block">
 				<div class="cd-timeline-img cd-picture">
-					<img src="${pageContext.request.contextPath}/resources/img/cd-icon-medical.svg" alt="Movie">
-				</div> <!-- cd-timeline-img -->
-	
+					<!-- <img src="${pageContext.request.contextPath}/resources/img/cd-icon-medical.svg" alt="Movie"> -->
+				</div>
+
 				<div class="cd-timeline-content">
-					<h2>IMSS</h2>
-					<p>This is the content of the last section</p>
-					<span class="cd-date">Feb 26</span>
+					<h2>SIGEMH</h2>
+					<p>
+						Integración de Sistema Hospitalario con Sistema de Laboratorio mediante Web Services,
+						para compartir información en tiempo real entre ambos.
+					</p>
+					<a href="#0" class="cd-read-more">Read more</a>
+					<span class="cd-date">Agosto 2013 - Diciembre 2013</span>
+				</div> <!-- cd-timeline-content -->
+			</div> <!-- cd-timeline-block -->
+
+			<div class="cd-timeline-block">
+				<div class="cd-timeline-img cd-picture">
+					<!-- <img src="${pageContext.request.contextPath}/resources/img/cd-icon-medical.svg" alt="Movie"> -->
+				</div>
+
+				<div class="cd-timeline-content">
+					<h2>SISPA Nominal</h2>
+					<p>
+						Desarrollo de Expediente Clínico Electrónico para el control de pacientes implementado en
+						el Instituto Mexicano de Seguridad Social (IMSS). Este implementado a nivel nacional en zonas
+						Rurales para mejorar el nivel de vida y atención brindada por el seguro.
+					</p>
+					<a href="#0" class="cd-read-more">Read more</a>
+					<span class="cd-date">Agosto 2012 - Julio 2013</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
 		</section> <!-- cd-timeline -->
