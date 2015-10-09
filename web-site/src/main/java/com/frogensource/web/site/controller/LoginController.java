@@ -18,16 +18,6 @@ public class LoginController {
 		return "contact";
 	}
 
-	@RequestMapping(value = "/projects", method = RequestMethod.GET)
-	public String projects(ModelMap map) {
-		return "projects";
-	}
-
-	@RequestMapping(value = "/projects/details", method = RequestMethod.GET)
-	public String projectsDetails(ModelMap map) {
-		return "projectsDetails";
-	}
-
 	@RequestMapping(value = "/services", method = RequestMethod.GET)
 	public String services(ModelMap map) {
 		return "services";

@@ -3,14 +3,16 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 		<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	
+
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/projects-reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/projects-style.css"> <!-- Resource style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/sticker-style.css"> <!-- Sticker style -->
 		<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.js"></script> <!-- JQuery -->
 		<script src="${pageContext.request.contextPath}/resources/js/projects-modernizr.js"></script> <!-- Modernizr -->
 		<script src="${pageContext.request.contextPath}/resources/js/projects-main.js"></script> <!-- Main -->
+		<script src="${pageContext.request.contextPath}/resources/js/sticker-main.js"></script> <!-- Sticker Main Function -->
 
 		<title>frogensource</title>
 	</head>
@@ -18,6 +20,9 @@
 		<header>
 			<h1>Responsive Vertical Timeline</h1>
 		</header>
+		<div id="sticker" onclick="location.href='${pageContext.request.contextPath}/projects'" >
+			<img src="${pageContext.request.contextPath}/resources/img/cd-icon-back.svg" alt="atrás" >
+		</div>
 
 		<section id="cd-timeline" class="cd-container">
 			<div class="cd-timeline-block">
@@ -48,7 +53,7 @@
 						así como el control y administración de sus componentes, garantizando un mejor 
 						funcionamiento del sitio, sin perder de vista su núcleo de negocio y conservando sus características.
 					</p>
-					<a href="#0" class="cd-read-more">Read more</a>
+					<a href="${pageContext.request.contextPath}/projects/details/telcel" class="cd-read-more">Ver m&aacute;s</a>
 					<span class="cd-date">Julio 2015 - A la fecha</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
@@ -66,7 +71,7 @@
 						de negocio y rediseñando su estructura y performance, para garantizar un mejor desempeño
 						del sistema así como mejorar la experiencia del usuario.
 					</p>
-					<a href="#0" class="cd-read-more">Read more</a>
+					<a href="${pageContext.request.contextPath}/projects/details/sib" class="cd-read-more">Ver m&aacute;s</a>
 					<span class="cd-date">Enero 2014 - Junio 2015</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
@@ -83,7 +88,7 @@
 						una dinámica de videojuego navideño. Esta aplicación fué montada sobre Facebook para llevar
 						a cabo la dinámica y participación de sus usuarios.
 					</p>
-					<a href="#0" class="cd-read-more">Read more</a>
+					<a href="${pageContext.request.contextPath}/projects/details/huawei" class="cd-read-more">Ver m&aacute;s</a>
 					<span class="cd-date">Noviembre 2013 - Diciembre 2013</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
@@ -99,7 +104,7 @@
 						Integración de Sistema Hospitalario con Sistema de Laboratorio mediante Web Services,
 						para compartir información en tiempo real entre ambos.
 					</p>
-					<a href="#0" class="cd-read-more">Read more</a>
+					<a href="${pageContext.request.contextPath}/projects/details/sigemh" class="cd-read-more">Ver m&aacute;s</a>
 					<span class="cd-date">Agosto 2013 - Diciembre 2013</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
@@ -116,7 +121,7 @@
 						el Instituto Mexicano de Seguridad Social (IMSS). Este implementado a nivel nacional en zonas
 						Rurales para mejorar el nivel de vida y atención brindada por el seguro.
 					</p>
-					<a href="#0" class="cd-read-more">Read more</a>
+					<a href="${pageContext.request.contextPath}/projects/details/sispa" class="cd-read-more">Ver m&aacute;s</a>
 					<span class="cd-date">Agosto 2012 - Julio 2013</span>
 				</div> <!-- cd-timeline-content -->
 			</div> <!-- cd-timeline-block -->
