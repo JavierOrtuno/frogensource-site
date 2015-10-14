@@ -11,6 +11,8 @@
 
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css"> <!-- Resource style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/footer.css"> <!-- Footer style -->
+
 		<script src="${pageContext.request.contextPath}/resources/js/modernizr.js"></script> <!-- Modernizr -->
 
 		<title>frogensource</title>
@@ -46,7 +48,7 @@
 						Proyectos
 					</a>
 				</li>
-	
+
 				<li>
 					<a href="#" class="selected" data-menu="contact">
 						<svg class="nc-icon outline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24"><g transform="translate(0, 0)"> <polyline data-color="color-2" fill="none" stroke="#4a5261" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points=" 19,7 12,14 5,7 " stroke-linejoin="miter"></polyline> <rect x="1" y="3" fill="none" stroke="#4a5261" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" width="22" height="18" stroke-linejoin="miter"></rect> <line data-color="color-2" fill="none" stroke="#4a5261" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" x1="7" y1="15" x2="5" y2="17" stroke-linejoin="miter"></line> <line data-color="color-2" fill="none" stroke="#4a5261" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" x1="17" y1="15" x2="19" y2="17" stroke-linejoin="miter"></line> </g></svg>
@@ -56,7 +58,7 @@
 				</li>
 			</ul>
 		</nav> <!-- .cd-side-navigation -->
-	
+
 		<main class="cd-main">
 			<section class="cd-section contact visible">
 				<header>
@@ -82,6 +84,22 @@
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
 					</p>
 				</div> <!-- .cd-content -->
+				<div class="footer">
+					<div class="desc-footer" >
+						frogensource SA de CV <br> Copyright 2015. All Right Reserved.
+					</div>
+					<div class="social-footer" >
+						<a href="https://www.facebook.com/1505176549808019" >
+							<img src="${pageContext.request.contextPath}/resources/img/cd-icon-facebook-logo.svg" />
+						</a>
+						<a href="https://twitter.com/hantroke" >
+							<img src="${pageContext.request.contextPath}/resources/img/cd-icon-twitter-logo.svg" />
+						</a>
+						<a href="https://www.linkedin.com/pub/francisco-ortuño/a1/67/219" >
+							<img src="${pageContext.request.contextPath}/resources/img/cd-icon-linkedin-logo.svg" />
+						</a>
+					</div>
+				</div>
 			</section> <!-- .cd-section -->
 		</main> <!-- .cd-main -->
 

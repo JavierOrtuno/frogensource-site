@@ -8,6 +8,8 @@
 
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/services-reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/services-style.css"> <!-- Resource style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/footer.css"> <!-- Footer style -->
+
 		<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.js"></script> <!-- JQuery -->
 		<script src="${pageContext.request.contextPath}/resources/js/services-modernizr.js"></script> <!-- Modernizr -->
 		<script src="${pageContext.request.contextPath}/resources/js/services-main.js"></script> <!-- Main -->

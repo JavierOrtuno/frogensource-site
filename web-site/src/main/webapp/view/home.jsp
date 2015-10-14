@@ -11,6 +11,8 @@
 
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css"> <!-- Resource style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/footer.css"> <!-- Footer style -->
+	
 		<script src="${pageContext.request.contextPath}/resources/js/modernizr.js"></script> <!-- Modernizr -->
 
 		<title>frogensource</title>
@@ -79,6 +81,22 @@
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
 					</p>
 				</div> <!-- .cd-content -->
+				<div class="footer">
+					<div class="desc-footer" >
+						frogensource SA de CV <br> Copyright 2015. All Right Reserved.
+					</div>
+					<div class="social-footer" >
+						<a href="https://www.facebook.com/1505176549808019" >
+							<img src="${pageContext.request.contextPath}/resources/img/cd-icon-facebook-logo.svg" />
+						</a>
+						<a href="https://twitter.com/hantroke" >
+							<img src="${pageContext.request.contextPath}/resources/img/cd-icon-twitter-logo.svg" />
+						</a>
+						<a href="https://www.linkedin.com/pub/francisco-ortuño/a1/67/219" >
+							<img src="${pageContext.request.contextPath}/resources/img/cd-icon-linkedin-logo.svg" />
+						</a>
+					</div>
+				</div>
 			</section> <!-- .cd-section -->
 		</main> <!-- .cd-main -->
 
