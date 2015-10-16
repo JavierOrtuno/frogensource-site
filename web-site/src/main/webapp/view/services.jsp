@@ -61,7 +61,7 @@
 				<header>
 					<div class="cd-title">
 						<h2>Servicios</h2>
-						<span>Some text here <br /> VERSION DE PRUEBA</span>
+						<span> <br /> VERSION BETA</span>
 					</div>
 	
 					<a href="#services-content" class="cd-scroll">Scroll Down</a>
@@ -86,7 +86,7 @@
 				</div> <!-- .cd-content -->
 				<div class="footer">
 					<div class="desc-footer" >
-						frogensource SA de CV <br> Copyright 2015. All Right Reserved.
+						&copy; 2015 frogensource <br> All Right Reserved.
 					</div>
 					<div class="social-footer" >
 						<a href="https://www.facebook.com/1505176549808019" >

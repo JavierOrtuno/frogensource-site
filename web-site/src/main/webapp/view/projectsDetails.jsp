@@ -20,7 +20,7 @@
 	</head>
 	<body>
 		<header>
-			<h1>Responsive Vertical Timeline</h1>
+			<h1>En frogensource Valoramos la Experiencia</h1>
 		</header>
 		<div id="sticker" onclick="location.href='${pageContext.request.contextPath}/projects'" >
 			<img src="${pageContext.request.contextPath}/resources/img/cd-icon-back.svg" alt="atrás" >
@@ -130,7 +130,7 @@
 		</section> <!-- cd-timeline -->
 		<div class="footer">
 			<div class="desc-footer" >
-				frogensource SA de CV <br> Copyright 2015. All Right Reserved.
+				&copy; 2015 frogensource <br> All Right Reserved.
 			</div>
 			<div class="social-footer" >
 				<a href="https://www.facebook.com/1505176549808019" >

@@ -61,29 +61,36 @@
 				<header>
 					<div class="cd-title">
 						<h2>frogen<b style="color: black">source</b></h2>
-						<span>Soluciones hechas a la medida. <br /> VERSION DE PRUEBA</span>
+						<h3>Puesto que Hacemos Realidad tus Sue&ntilde;os, Somos tu Mejor Opci&oacute;n.</h3>
+						<span>
+							<br />
+							VERSION BETA
+						</span>
 					</div>
 
 					<a href="#index-content" class="cd-scroll">Scroll Down</a>
 				</header>
 
 				<div class="cd-content" id="index-content">
+					<p style="font-weight: bold;" >¿Quienes somos?</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
+						frogensource es una empresa dedicada a brindar soluciones electr&oacute;nicas, mediante sistemas de computaci&oacute;n dise&ntilde;ados a la medida para cumplir toda necesidad de negocio. Somos comprometidos con nuestros clientes, siempre buscando la satisfacci&oacute;n total, bajo los mas elevados estándares de calidad en nuestros desarrollos, puesto que hacemos posibles tus sueños, somos tu mejor opci&oacute;n.
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
+						Brindamos servicios con la mayor calidad, siempre buscando mejorar en cada uno de nuestros desarrollos, buscamos cumplir los sue&ntilde;os de nuestros clientes, ya que ellos nos respaldan.
 					</p>
+					<p style="font-weight: bold;" >Nuestra misi&oacute;n</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
+						Satisfacer las necesidades de negocio de nuestros clientes a trav&eacute;s de sistemas inform&aacute;ticos, dise&ntilde;ados bajos los est&aacute;ndares mas altos de calidad, proporcionando soluciones hechas a la medida para cada uno de nuestros clientes.
 					</p>
+					<p style="font-weight: bold;" >Nuestra visi&oacute;n</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
+						Ser una empresa l&iacute;der en el desarrollo de sistemas, reconocida por nuestros clientes a trav&eacute;s de nuestros servicios y soluciones con calidad e innovaci&oacute;n, sin perder de vista los valores que nos unen como empresa.
 					</p>
 				</div> <!-- .cd-content -->
 				<div class="footer">
 					<div class="desc-footer" >
-						frogensource SA de CV <br> Copyright 2015. All Right Reserved.
+						&copy; 2015 frogensource <br> All Right Reserved.
 					</div>
 					<div class="social-footer" >
 						<a href="https://www.facebook.com/1505176549808019" >
