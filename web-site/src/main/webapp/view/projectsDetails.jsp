@@ -130,7 +130,7 @@
 		</section> <!-- cd-timeline -->
 		<div class="footer">
 			<div class="desc-footer" >
-				&copy; 2015 frogensource <br> All Right Reserved.
+				&copy; 2015 frogensource <br> All rights reserved.
 			</div>
 			<div class="social-footer" >
 				<a href="https://www.facebook.com/1505176549808019" >

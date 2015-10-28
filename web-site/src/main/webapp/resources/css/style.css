@@ -194,6 +194,9 @@ Navigation
   background: #ffa347;
   overflow: hidden;
 }
+.cd-section.home header {
+  background-color: #ffa347;
+}
 .cd-section.services header {
   background-color: #d35657;
 }
@@ -406,7 +409,7 @@ Navigation
   -o-transform: translateZ(0);
   transform: translateZ(0);
 }
-#cd-loading-bar.index {
+#cd-loading-bar.home {
   background-color: #ffa347;
 }
 #cd-loading-bar.services {
