@@ -12,8 +12,11 @@ import org.springframework.web.servlet.view.UrlBasedViewResolver;
 @Configuration
 @ComponentScan(
 	{
-		"com.frogensource.web.site",
-		"com.frogensource.web.site.controller"
+		"com.frogensource.web.site.business",
+		"com.frogensource.web.site.business.impl",
+		"com.frogensource.web.site.controller",
+		"com.frogensource.web.site.service",
+		"com.frogensource.web.site.service.impl"
 	})
 @EnableWebMvc
 public class Config extends WebMvcConfigurerAdapter {

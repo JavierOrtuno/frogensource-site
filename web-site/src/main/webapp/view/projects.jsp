@@ -31,7 +31,15 @@
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css"> <!-- Resource style -->
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/footer.css"> <!-- Footer style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap/bootstrap.min.css"> <!-- Bootstrap style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/validationEngine.jquery.css"> <!-- validation style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/template.css"> <!-- validation style -->
 
+		<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/jquery.validationEngine.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/jquery.validationEngine-es.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/velocity.min.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/main.js"></script> <!-- Resource jQuery -->
 		<script src="${pageContext.request.contextPath}/resources/js/modernizr.js"></script> <!-- Modernizr -->
 
 		<title>frogensource</title>
@@ -59,7 +67,7 @@
 								z"/>
 						</g>
 						</svg>
-						Home
+						Inicio
 					</a>
 				</li>
 	
@@ -92,6 +100,7 @@
 				<header>
 					<div class="cd-title">
 						<h2>Proyectos</h2>
+						<h3>Experiencia y Calidad, los pilares que nos soportan.</h3>
 						<span> <br /> VERSION BETA</span>
 					</div>
 	
@@ -113,15 +122,15 @@
 					<p>
 						Tenemos experiencia en diversos sectores y &aacute;mbitos de negocio, siempre buscando comprender al cliente, sus necesidades y su negocio.
 						De esta manera podemos dar pauta para realizar nuestro trabajo con una mayor calidad y desempeño. Los sectores en los cuales tenemos experiencia
-						son: 
-						<p>Sector Salud</p>
-						<p>Sector Bancario</p>
-						<p>Sector Financiero</p>
-						<p>Sector Telecomunicaciones</p>
-						<p>Sector Web</p>
+						son:
 					</p>
+					<p>Sector Salud</p>
+					<p>Sector Bancario</p>
+					<p>Sector Financiero</p>
+					<p>Sector Telecomunicaciones</p>
+					<p>Sector Web</p>
 					<p>
-						<a style="font-weight: bold;" href="${pageContext.request.contextPath}/projects/details">Conoce m&aacute;s acerca de los proyectos</a>
+						<a class="btn btn-info" href="${pageContext.request.contextPath}/projects/details">Conoce m&aacute;s</a>
 					</p>
 				</div> <!-- .cd-content -->
 				<div class="footer">
@@ -144,8 +153,5 @@
 		</main> <!-- .cd-main -->
 
 		<div id="cd-loading-bar" data-scale="1" class="projects"></div> <!-- lateral loading bar -->
-		<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.js"></script>
-		<script src="${pageContext.request.contextPath}/resources/js/velocity.min.js"></script>
-		<script src="${pageContext.request.contextPath}/resources/js/main.js"></script> <!-- Resource jQuery -->
 	</body>
 </html>

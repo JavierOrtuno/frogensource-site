@@ -1,7 +1,5 @@
-<project
-    xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.frogensource</groupId>
@@ -15,6 +13,7 @@
         <spring.version>4.0.1.RELEASE</spring.version>
         <javax.servlet.version>3.0.1</javax.servlet.version>
         <javax.version>7.0</javax.version>
+        <javax.mail.version>1.5.0-b01</javax.mail.version>
         <jstl.version>1.2</jstl.version>
         <junit.version>3.8.1</junit.version>
     </properties>
@@ -58,6 +57,11 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+    		<groupId>javax.mail</groupId>
+    		<artifactId>mail</artifactId>
+    		<version>${javax.mail.version}</version>
+		</dependency>
     </dependencies>
 
     <build>
@@ -74,4 +78,27 @@
       	</plugins>
     </build>
 
+<profiles>
+        <profile>
+<!-- When built in OpenShift the openshift profile will be used when invoking mvn. -->
+<!-- Use this profile for any OpenShift specific customization your app will need. -->
+<!-- By default that is to put the resulting archive into the deployments folder. -->
+<!-- http://maven.apache.org/guides/mini/guide-building-for-different-environments.html -->
+	<id>openshift</id>
+	<build>
+		<finalName>web-site</finalName>
+		<plugins>
+			<plugin>
+       <artifactId>maven-war-plugin</artifactId>
+       <version>2.4</version>
+       <configuration>
+         <outputDirectory>webapps</outputDirectory>
+         <warName>ROOT</warName>
+       </configuration>
+     </plugin>
+
+		</plugins>
+	</build>
+</profile>
+    </profiles>
 </project>

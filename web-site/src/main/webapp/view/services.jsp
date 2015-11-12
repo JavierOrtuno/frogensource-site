@@ -31,7 +31,15 @@
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css"> <!-- Resource style -->
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/footer.css"> <!-- Footer style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap/bootstrap.min.css"> <!-- Bootstrap style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/validationEngine.jquery.css"> <!-- validation style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/template.css"> <!-- validation style -->
 
+		<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/jquery.validationEngine.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/jquery.validationEngine-es.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/velocity.min.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/main.js"></script> <!-- Resource jQuery -->
 		<script src="${pageContext.request.contextPath}/resources/js/modernizr.js"></script> <!-- Modernizr -->
 
 		<title>frogensource</title>
@@ -59,7 +67,7 @@
 								z"/>
 						</g>
 						</svg>
-						Home
+						Inicio
 					</a>
 				</li>
 				<li>
@@ -89,6 +97,7 @@
 				<header>
 					<div class="cd-title">
 						<h2>Servicios</h2>
+						<h3>La mejor opci&oacute;n, al alcance de tus manos.</h3>
 						<span> <br /> VERSION BETA</span>
 					</div>
 	
@@ -97,19 +106,27 @@
 	
 				<div class="cd-content" id="services-content">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
+						<b>¡Nuestros servicios!</b>
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
+						<b>frogensource</b> ofrece soluciones de negocio mediante el desarrollo de aplicaciones web dise&ntilde;adas a la medida, desde p&aacute;ginas web publicitarias, 
+						hasta sofisticados sistemas de negocio para el control de su empresa. Crece tu negocio de una manera eficiente, administra tu empresa, emprende tu negocio.
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
+						Nos respalda nuestra experiencia, lo que nos importa son nuestros clientes, <b>frogensource</b> ofrece una amplia gama de servicios desarrollado con calidad, 
+						plasmamos la experiencia de nuestros clientes en un sistema personalizado, que cumpla completamente con sus necesidades. Escuchamos tus necesidades, 
+						analizamos tu negocio, dise&ntilde;amos soluciones y las ponemos en pr&aacute;ctica.
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
+						<b>¡Lo que nos hace diferentes!</b>
 					</p>
 					<p>
-						<a href="${pageContext.request.contextPath}/services/details">Ver servicios</a>
+						En <b>frogensource</b> ademas de ofrecerte los m&aacute;s elevados est&aacute;ndares de calidad, tambien te ofrecemos soluciones flexibles para la econom&iacute;a de
+						tu negocio, porque sabemos que deseas crecer tu negocio, nosotros te ayudamos. Consulta nuestros planes de trabajo y formas de financiamiento o renta y no esperes m&aacute;s
+						y emprende el camino hacia el &eacute;xito.
+					</p>
+					<p>
+						<a class="btn btn-info" href="${pageContext.request.contextPath}/services/details">Conoce m&aacute;s</a>
 					</p>
 				</div> <!-- .cd-content -->
 				<div class="footer">
@@ -132,8 +149,5 @@
 		</main> <!-- .cd-main -->
 
 		<div id="cd-loading-bar" data-scale="1" class="services"></div> <!-- lateral loading bar -->
-		<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.js"></script>
-		<script src="${pageContext.request.contextPath}/resources/js/velocity.min.js"></script>
-		<script src="${pageContext.request.contextPath}/resources/js/main.js"></script> <!-- Resource jQuery -->
 	</body>
 </html>

@@ -85,7 +85,7 @@ jQuery(document).ready(function($){
 			section.load(newSection+' .cd-section > *', function(event){ //MARCA JOJO
 				//finish up the animation and then make the new section visible
 				var scaleMax = loadingBar.data('scale');
-				
+
 				loadingBar.velocity('stop').velocity({
 					scaleY: scaleMax
 				}, 400, function(){
@@ -106,10 +106,12 @@ jQuery(document).ready(function($){
 				        //if the new page was triggered by a 'popstate' event, don't add it
 				        window.history.pushState({path: url},'',url);
 				    }
+
 				});
 			});
 
 		}, 50);
+
 	}
 
 	function loadingBarAnimation() {

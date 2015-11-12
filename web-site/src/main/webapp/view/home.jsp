@@ -31,7 +31,15 @@
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css"> <!-- Resource style -->
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/footer.css"> <!-- Footer style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap/bootstrap.min.css"> <!-- Bootstrap style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/validationEngine.jquery.css"> <!-- validation style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/template.css"> <!-- validation style -->
 
+		<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/jquery.validationEngine.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/jquery.validationEngine-es.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/velocity.min.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/main.js"></script> <!-- Resource jQuery -->
 		<script src="${pageContext.request.contextPath}/resources/js/modernizr.js"></script> <!-- Modernizr -->
 
 		<title>frogensource</title>
@@ -59,7 +67,7 @@
 								z"/>
 						</g>
 						</svg>
-						Home
+						Inicio
 					</a>
 				</li>
 				<li>
@@ -137,8 +145,5 @@
 		</main> <!-- .cd-main -->
 
 		<div id="cd-loading-bar" data-scale="1" class="home"></div> <!-- lateral loading bar -->
-		<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.js"></script>
-		<script src="${pageContext.request.contextPath}/resources/js/velocity.min.js"></script>
-		<script src="${pageContext.request.contextPath}/resources/js/main.js"></script> <!-- Resource jQuery -->
 	</body>
 </html>

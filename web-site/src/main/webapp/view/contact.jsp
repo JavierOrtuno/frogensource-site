@@ -31,10 +31,64 @@
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css"> <!-- Resource style -->
 		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/footer.css"> <!-- Footer style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/bootstrap/bootstrap.min.css"> <!-- Bootstrap style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/validationEngine.jquery.css"> <!-- validation style -->
+		<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/template.css"> <!-- validation style -->
 
+		<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/jquery.validationEngine.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/jquery.validationEngine-es.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/velocity.min.js"></script>
+		<script src="${pageContext.request.contextPath}/resources/js/main.js"></script> <!-- Resource jQuery -->
 		<script src="${pageContext.request.contextPath}/resources/js/modernizr.js"></script> <!-- Modernizr -->
 
 		<title>frogensource</title>
+
+		<script type="text/javascript">
+			function sendMessage() {
+
+				var vComment, vEmail, vName;
+				vComment = $("#comment").val();
+				vEmail = $("#email").val();
+				vName = $("#name").val();
+	
+				$("#loader").css("display", "inline");
+				$("#btn-send").css("display", "none");
+				$.ajax({
+					url: "${pageContext.request.contextPath}/contact/sendMail",
+					type: "POST",
+					async: true,
+					data: {
+						comment : vComment,
+						email : vEmail,
+						name : vName
+					}
+				}).done(function(data) {
+					if (data == "SUCCESS") {
+						$("#msg-success").css("display", "block");
+						$("#msg-error").css("display", "none");	
+					} else {
+						$("#msg-success").css("display", "none");
+						$("#msg-error").css("display", "block");
+					}
+				}).fail(function() {
+					$("#msg-success").css("display", "none");
+					$("#msg-error").css("display", "block");
+				}).always(function() {
+					$("#loader").css("display", "none");
+				});
+			}
+
+			$(document).ready(function() {
+				$("#frm-contact").validationEngine('attach', {
+					onValidationComplete: function(form, status) {
+						if (status) {
+							sendMessage();
+						}
+					}
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<nav class="cd-side-navigation">
@@ -59,7 +113,7 @@
 								z"/>
 						</g>
 						</svg>
-						Home
+						Inicio
 					</a>
 				</li>
 	
@@ -92,6 +146,7 @@
 				<header>
 					<div class="cd-title">
 						<h2>Contacto</h2>
+						<h3>No esperes m&aacute;s, crece a cada paso.</h3>
 						<span> <br /> VERSION BETA</span>
 					</div>
 
@@ -100,17 +155,67 @@
 	
 				<div class="cd-content" id="contact-content">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
+						<b>¡Cont&aacute;ctanos!</b>
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
+						Requieres de nuestros servicios, contáctanos. Puedes enviarnos un correo desde nuestra página web, nosotros nos pondremos en contacto a la brevedad.
+						O si lo prefieres, puedes contactarnos directamente por medio de redes sociales.
 					</p>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae illo veritatis ea deserunt aliquam blanditiis, voluptas optio, voluptate ut accusamus veniam numquam, porro! Cum minima a molestiae, similique voluptate, perferendis vel iusto quam suscipit delectus dolore ducimus possimus illo molestias voluptas labore optio consequuntur sapiente pariatur libero nam temporibus. Laudantium!
-					</p>
+					<div class="container-fluid" >
+						<div class="row">
+							<div class="col-md-3"></div>
+							<div class="col-md-6">
+								<form id="frm-contact" action="javascript:sendMessage()">
+									<div class="form-group">
+    									<label for="name">Nombre</label>
+    									<input type="text" class="form-control validate[required]" id="name" name="name" placeholder="Nombre" >
+  									</div>
+									<div class="form-group">
+    									<label for="email">Correo</label>
+    									<input type="email" class="form-control validate[required]" id="email" name="email" placeholder="Correo">
+  									</div>
+  									<div class="form-group">
+  										<label for="comment">Comentarios</label>
+  										<textarea class="form-control validate[required]" rows="5" id="comment" name="comment" placeholder="Comentarios"></textarea>
+									</div>
+  									<button id="btn-send" type="submit" class="btn btn-info">Enviar</button>
+								</form>
+							</div>
+							<div class="col-md-3"></div>
+						</div>
+						<div class="row" id="loader" style="display: none">
+							<div class="col-md-4"></div>
+							<div class="col-md-4 text-center">
+								<img src="${pageContext.request.contextPath}/resources/img/gif/ajax-loader.gif" />
+							</div>
+							<div class="col-md-4"></div>
+						</div>
+						<div class="row" id="msg-success" style="display: none">
+							<div class="col-md-3"></div>
+							<div class="col-md-6 text-center">
+								<div class="alert alert-success" role="alert">
+									<strong>
+										Gracias por ponerse en contacto con nosotros.
+										<br>
+										Lo contactaremos a la brevedad.
+									</strong>
+								</div>
+							</div>
+							<div class="col-md-3"></div>
+						</div>
+						<div class="row" id="msg-error" style="display: none">
+							<div class="col-md-3"></div>
+							<div class="col-md-6 text-center">
+								<div class="alert alert-warning" role="alert">
+									<strong>
+										El servicios no est&aacute; disponible por el momento.
+										Intente mas tarte.
+									</strong>
+								</div>
+							</div>
+							<div class="col-md-3"></div>
+						</div>
+					</div>
 				</div> <!-- .cd-content -->
 				<div class="footer">
 					<div class="desc-footer" >
@@ -132,8 +237,5 @@
 		</main> <!-- .cd-main -->
 
 		<div id="cd-loading-bar" data-scale="1" class="contact"></div> <!-- lateral loading bar -->
-		<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.js"></script>
-		<script src="${pageContext.request.contextPath}/resources/js/velocity.min.js"></script>
-		<script src="${pageContext.request.contextPath}/resources/js/main.js"></script> <!-- Resource jQuery -->
 	</body>
 </html>
