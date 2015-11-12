@@ -108,9 +108,9 @@
 				</header>
 
 				<div class="cd-content" id="projects-content">
-					<p style="font-weight: bold;" >¡Lo que nos caracteriza!</p>
+					<p><b>¡Lo que nos caracteriza!</b></p>
 					<p>
-						frogensource tiene el respaldo de su gente, as&iacute; como la experiencia en su participaci&oacute;n en sus proyectos.
+						<b>frogensource</b> tiene el respaldo de su gente, as&iacute; como la experiencia en su participaci&oacute;n en sus proyectos.
 						Buscando siempre mejorar en cada desarrollo para brindar servicio con los est&aacute;ndares mas elevados de calidad en el mercado.
 					</p>
 					<p>
@@ -118,7 +118,7 @@
 						Te escuchamos, analizamos tu necesidad de negocio, hacemos una propuesta y construimos tu futuro, &uacute;nete y se parte de nuestros clientes,
 						danos la oportunidad de hacer realidad tus sueños.
 					</p>
-					<p style="font-weight: bold;" >¡Sectores!</p>
+					<p><b>¡Sectores!</b></p>
 					<p>
 						Tenemos experiencia en diversos sectores y &aacute;mbitos de negocio, siempre buscando comprender al cliente, sus necesidades y su negocio.
 						De esta manera podemos dar pauta para realizar nuestro trabajo con una mayor calidad y desempeño. Los sectores en los cuales tenemos experiencia

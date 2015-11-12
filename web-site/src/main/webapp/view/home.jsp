@@ -109,18 +109,18 @@
 				</header>
 
 				<div class="cd-content" id="index-content">
-					<p style="font-weight: bold;" >¿Quienes somos?</p>
+					<p><b>¿Quienes somos?</b></p>
 					<p>
-						frogensource es una empresa dedicada a brindar soluciones electr&oacute;nicas, mediante sistemas de computaci&oacute;n dise&ntilde;ados a la medida para cumplir toda necesidad de negocio. Somos comprometidos con nuestros clientes, siempre buscando la satisfacci&oacute;n total, bajo los mas elevados estándares de calidad en nuestros desarrollos, puesto que hacemos posibles tus sueños, somos tu mejor opci&oacute;n.
+						<b>frogensource</b> es una empresa dedicada a brindar soluciones electr&oacute;nicas, mediante sistemas de computaci&oacute;n dise&ntilde;ados a la medida para cumplir toda necesidad de negocio. Somos comprometidos con nuestros clientes, siempre buscando la satisfacci&oacute;n total, bajo los mas elevados estándares de calidad en nuestros desarrollos, puesto que hacemos posibles tus sueños, somos tu mejor opci&oacute;n.
 					</p>
 					<p>
 						Brindamos servicios con la mayor calidad, siempre buscando mejorar en cada uno de nuestros desarrollos, buscamos cumplir los sue&ntilde;os de nuestros clientes, ya que ellos nos respaldan.
 					</p>
-					<p style="font-weight: bold;" >Nuestra misi&oacute;n</p>
+					<p><b>Nuestra misi&oacute;n</b></p>
 					<p>
 						Satisfacer las necesidades de negocio de nuestros clientes a trav&eacute;s de sistemas inform&aacute;ticos, dise&ntilde;ados bajos los est&aacute;ndares mas altos de calidad, proporcionando soluciones hechas a la medida para cada uno de nuestros clientes.
 					</p>
-					<p style="font-weight: bold;" >Nuestra visi&oacute;n</p>
+					<p><b>Nuestra visi&oacute;n</b></p>
 					<p>
 						Ser una empresa l&iacute;der en el desarrollo de sistemas, reconocida por nuestros clientes a trav&eacute;s de nuestros servicios y soluciones con calidad e innovaci&oacute;n, sin perder de vista los valores que nos unen como empresa.
 					</p>
