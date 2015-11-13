@@ -133,6 +133,15 @@ jQuery(document).ready(function($){
 		isAnimating =  false;
 		//reset your loading bar
 		resetLoadingBar();
+
+		// Inicializamos el formulario de contacto
+		$("#frm-contact").validationEngine('attach', {
+			onValidationComplete: function(form, status) {
+				if (status) {
+					sendMessage();
+				}
+			}
+		});
 	}
 
 	function resetLoadingBar() {
