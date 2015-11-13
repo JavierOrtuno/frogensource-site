@@ -87,7 +87,12 @@
 		</section><!-- cd-section -->
 	
 		<section id="section2" class="cd-section">
-			<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+			<p>
+				&ldquo;
+					SIGEMH es un proyecto orientado al sector salud, implementado en el Hospital de Especialidades de Salina Cruz, Oaxaca.
+					Integrando cada una de las especialidades del hospital en un sistema de control de pacientes y comunicaci&oacute;n con sistemas de laboratorio.
+				&rdquo;
+			</p>
 		</section><!-- cd-section -->
 	
 		<section id="section3" class="cd-section">

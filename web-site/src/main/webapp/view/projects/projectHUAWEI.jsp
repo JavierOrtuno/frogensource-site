@@ -87,7 +87,12 @@
 		</section><!-- cd-section -->
 	
 		<section id="section2" class="cd-section">
-			<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+			<p>
+				&ldquo;
+					Promocional navide&ntilde;o implementado para la compa&ntilde;&iacute;a de celulares Huawei.
+					Montado sobre la plataforma de facebook con interacci&oacute;n a los usuarios para participar por increibles premios.
+				&rdquo;
+			</p>
 		</section><!-- cd-section -->
 	
 		<section id="section3" class="cd-section">

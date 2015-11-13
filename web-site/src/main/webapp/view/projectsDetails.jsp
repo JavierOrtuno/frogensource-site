@@ -48,7 +48,7 @@
 		<section id="cd-timeline" class="cd-container">
 			<div class="cd-timeline-block">
 				<div class="cd-timeline-img cd-location">
-					<!-- <img src="${pageContext.request.contextPath}/resources/img/cd-icon-huawei.svg" alt="Location"> -->
+					<img src="${pageContext.request.contextPath}/resources/img/cd-icon-frogensource.svg" alt="Frogensource">
 				</div>
 
 				<div class="cd-timeline-content">
@@ -64,7 +64,7 @@
 
 			<div class="cd-timeline-block">
 				<div class="cd-timeline-img cd-phone">
-					<!-- <img src="${pageContext.request.contextPath}/resources/img/cd-icon-telcel.svg" alt="Picture"> -->
+					<img src="${pageContext.request.contextPath}/resources/img/cd-icon-telcel.svg" alt="Telcel">
 				</div> <!-- cd-timeline-img -->
 
 				<div class="cd-timeline-content">
@@ -81,7 +81,7 @@
 			
 			<div class="cd-timeline-block">
 				<div class="cd-timeline-img cd-movie">
-					<!-- <img src="${pageContext.request.contextPath}/resources/img/cd-icon-hsbc.svg" alt="Location"> -->
+					<img src="${pageContext.request.contextPath}/resources/img/cd-icon-hsbc-2.svg" alt="HSBC">
 				</div> <!-- cd-timeline-img -->
 
 				<div class="cd-timeline-content">
@@ -99,7 +99,7 @@
 
 			<div class="cd-timeline-block">
 				<div class="cd-timeline-img cd-location">
-					<!-- <img src="${pageContext.request.contextPath}/resources/img/cd-icon-huawei.svg" alt="Location"> -->
+					<img src="${pageContext.request.contextPath}/resources/img/cd-icon-huawei.svg" alt="Huawei">
 				</div>
 
 				<div class="cd-timeline-content">
@@ -116,7 +116,7 @@
 
 			<div class="cd-timeline-block">
 				<div class="cd-timeline-img cd-picture">
-					<!-- <img src="${pageContext.request.contextPath}/resources/img/cd-icon-medical.svg" alt="Movie"> -->
+					<img src="${pageContext.request.contextPath}/resources/img/cd-icon-medical.svg" alt="SIGEMH">
 				</div>
 
 				<div class="cd-timeline-content">
@@ -132,7 +132,7 @@
 
 			<div class="cd-timeline-block">
 				<div class="cd-timeline-img cd-picture">
-					<!-- <img src="${pageContext.request.contextPath}/resources/img/cd-icon-medical.svg" alt="Movie"> -->
+					<img src="${pageContext.request.contextPath}/resources/img/cd-icon-medical.svg" alt="SISPA">
 				</div>
 
 				<div class="cd-timeline-content">

@@ -87,7 +87,12 @@
 		</section><!-- cd-section -->
 	
 		<section id="section2" class="cd-section">
-			<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+			<p>
+				&ldquo;
+					SISPA Nominal es un proyecto orientado a expedientes cl&iacute;nicos, desarrollado para el Instituto Mexicano del Seguro Social (IMSS).
+					Implementado a nivel nacional para mejorar la calidad en la atenci&oacute;n m&eacute;dica en el pa&iacute;s.
+				&rdquo;
+			</p>
 		</section><!-- cd-section -->
 	
 		<section id="section3" class="cd-section">
