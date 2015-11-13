@@ -36,6 +36,42 @@
 		<script src="${pageContext.request.contextPath}/resources/js/sticker-main.js"></script> <!-- Sticker Main Function -->
 
 		<title>frogensource</title>
+		<script type="text/javascript">
+			// Envia un correo electronico
+			function sendMessage() {
+	
+				var vComment, vEmail, vName;
+				vComment = $("#comment").val();
+				vEmail = $("#email").val();
+				vName = $("#name").val();
+	
+				$("#loader").css("display", "inline");
+				$("#btn-send").css("display", "none");
+				$.ajax({
+					url: "/contact/sendMail",
+					type: "POST",
+					async: true,
+					data: {
+						comment : vComment,
+						email : vEmail,
+						name : vName
+					}
+				}).done(function(data) {
+					if (data == "SUCCESS") {
+						$("#msg-success").css("display", "block");
+						$("#msg-error").css("display", "none");	
+					} else {
+						$("#msg-success").css("display", "none");
+						$("#msg-error").css("display", "block");
+					}
+				}).fail(function() {
+					$("#msg-success").css("display", "none");
+					$("#msg-error").css("display", "block");
+				}).always(function() {
+					$("#loader").css("display", "none");
+				});
+			}
+		</script>
 	</head>
 	<body>
 		<header>

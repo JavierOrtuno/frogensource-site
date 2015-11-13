@@ -135,13 +135,7 @@ jQuery(document).ready(function($){
 		resetLoadingBar();
 
 		// Inicializamos el formulario de contacto
-		$("#frm-contact").validationEngine('attach', {
-			onValidationComplete: function(form, status) {
-				if (status) {
-					sendMessage();
-				}
-			}
-		});
+		$("#frm-contact").validationEngine('attach');
 	}
 
 	function resetLoadingBar() {

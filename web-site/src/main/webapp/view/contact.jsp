@@ -45,8 +45,9 @@
 		<title>frogensource</title>
 
 		<script type="text/javascript">
+			// Envia un correo electronico
 			function sendMessage() {
-
+	
 				var vComment, vEmail, vName;
 				vComment = $("#comment").val();
 				vEmail = $("#email").val();
@@ -80,13 +81,13 @@
 			}
 
 			$(document).ready(function() {
-				$("#frm-contact").validationEngine('attach', {
+				$("#frm-contact").validationEngine('attach');/*, {
 					onValidationComplete: function(form, status) {
 						if (status) {
 							sendMessage();
 						}
 					}
-				});
+				});*/
 			});
 		</script>
 	</head>
